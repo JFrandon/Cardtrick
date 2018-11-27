@@ -75,3 +75,4 @@ while trycnt < trymax:
 i=int(pnum/2)
 j=int((len(deck)/pnum)/2)
 print(pilgen(deck,pnum,True)[i][j],"est votre carte")
+input("Press Enter to close...")
